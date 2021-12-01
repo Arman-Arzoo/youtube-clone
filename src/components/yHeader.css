@@ -1,0 +1,84 @@
+/* yHeader demo test */
+
+.yHeader {
+  display: flex;
+  background: rgba(33, 33, 33, 0.98);
+  height: 60px;
+  align-items: center;
+}
+
+.yHeader_MenuIcon {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.yHeader__logo {
+  position: relative;
+}
+.yHeader__logo > img {
+  width: 80px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-top: 3 px;
+  margin-right: 15px;
+}
+.yHeader__logo > span {
+  color: white;
+  position: absolute;
+  font-size: 10px;
+  top: 20%;
+  right: 8%;
+}
+
+.yHeader__search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.yHeader__searchInput {
+  width: 100%;
+  height: 10px;
+  padding: 14px;
+  outline-width: 1px solid #3ea6ff;
+  color: white;
+
+  background: hsl(0, 0%, 7%);
+  border: 1px solid hsl(0, 0%, 18.82%);
+}
+.yHeader__searchIcon {
+  background: #3e3e3e;
+  height: 20px !important;
+  padding: 9px;
+  width: 44px !important;
+  cursor: pointer;
+  color: white;
+}
+.yHeader__searchMicIcon {
+  color: white;
+  background: black;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.yHeader__nav {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.yHeader__navOption {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.yHeader__navProfile {
+  background: gray;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
