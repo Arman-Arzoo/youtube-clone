@@ -7,6 +7,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import MenuIcon from "@material-ui/icons/Menu";
 import "./yHeader.css";
 import ylogo from "../components/ylogo.png";
+import { data } from "../dummyData/data";
 export const Yheader = () => {
   return (
     <div className="yHeader">
@@ -31,7 +32,16 @@ export const Yheader = () => {
       <div className="yHeader__nav">
         <VideoIcon className="yHeader__navOption" />
         <AppIcon className="yHeader__navOption" />
-        <NotificationIcon className="yHeader__navOption" />
+        <div className="yHeader_navBadge">
+          <div
+            className={`${
+              data.notification ? "yHeader__navBadgeOption" : "hide"
+            } `}
+          >
+            {data.notification}
+          </div>
+          <NotificationIcon className="yHeader__navOption" />
+        </div>
 
         <img src="" alt="" className="yHeader__navProfile yHeader__navOption" />
       </div>
