@@ -1,9 +1,13 @@
 .home {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-top: 60px;
 }
 .home__video {
+  margin: 8px;
   width: 295px;
-  height: 500px;
+  height: 100%;
   overflow: hidden;
 }
 

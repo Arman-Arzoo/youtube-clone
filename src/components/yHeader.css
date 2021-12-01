@@ -5,6 +5,9 @@
   background: rgba(33, 33, 33, 0.98);
   height: 60px;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .yHeader_MenuIcon {
